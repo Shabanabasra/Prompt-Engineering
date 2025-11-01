@@ -1,0 +1,106 @@
+Tree-of-Thought (ToT)
+1.In Tree-of-Thought reasoning, an AI explores multiple possible reasoning paths instead of one. This is similar to:
+A) Writing linear notes
+B) Drawing a mind map with options
+C) Random guessing
+D) Ignoring failed attempts
+2.Which best describes the key advantage of Tree-of-Thought over Chain-of-Thought?
+A) It’s faster
+B) It explores multiple reasoning branches and chooses the best
+C) It eliminates reasoning entirely
+D) It only works in binary classification
+3.An AI is solving a riddle. It generates three reasoning branches and evaluates each for logic and correctness before deciding. This behavior is an example of:
+A) Self-consistency
+B) Tree-of-Thought
+C) Reinforcement tuning
+D) One-shot prompting
+4.If Chain-of-Thought is “one straight road,” Tree-of-Thought is:
+A) “A single line”
+B) “A network of paths with decision points”
+C) “A random jump”
+D) “A closed loop”
+5.Tree-of-Thought reasoning can improve results in:
+A) Memory recall tasks
+B) Multi-step problem-solving and planning
+C) Data compression
+D) Sentence tokenization
+6.A model is deciding which marketing plan to choose. It analyzes:
+•	Path A: Social media campaign
+•	Path B: Influencer strategy
+•	Path C: Event-based promotion
+Then picks Path B. This represents:
+A) Random search
+B) Tree-of-Thought exploration
+C) Reinforcement reward loop
+D) Model pruning
+7.Why is pruning important in Tree-of-Thought reasoning?
+A) To remove unnecessary or weak reasoning branches
+B) To hide reasoning steps
+C) To add randomness
+D) To expand branches infinitely
+8.What is the root node in Tree-of-Thought reasoning?
+A) The final conclusion
+B) The first prompt or initial problem statement
+C) The middle reasoning step
+D) The evaluation metric
+9.In Tree-of-Thought reasoning, what are the “leaf nodes”?
+A) Incomplete thoughts
+B) Possible final answers after exploring all paths
+C) Only correct answers
+D) Errors in reasoning
+10.A ToT model evaluates each branch using a scoring function. What does this function measure?
+A) Token count
+B) Logical quality or likelihood of correctness
+C) Randomness
+D) Model bias
+11.Which method best combines exploration and efficiency in ToT reasoning?
+A) Expanding all possible branches equally
+B) Using beam search to explore only top-scoring paths
+C) Randomly sampling branches
+D) Ignoring low scores
+12.A ToT system explores three reasoning paths and finds two incorrect and one correct. What’s the main benefit?
+A) It proves model randomness
+B) It identifies the best reasoning route
+C) It shortens computation
+D) It hides errors
+13.How does Tree-of-Thought help in creative writing tasks?
+A) By restricting output
+B) By exploring multiple storylines or plot branches
+C) By forcing short answers
+D) By removing imagination
+14.Which visualization best represents ToT reasoning?
+A) Straight line
+B) Binary tree
+C) Circle
+D) Histogram
+15.Why is ToT especially useful for planning tasks?
+A) It explores future consequences of different decisions
+B) It skips reasoning for faster output
+C) It reduces model accuracy
+D) It limits exploration
+16.What happens if the tree grows too large in ToT reasoning?
+A) It becomes faster
+B) It may require pruning or limiting depth for efficiency
+C) It increases accuracy automatically
+D) It loses all branches
+17.In ToT, if two reasoning branches reach the same conclusion through different steps, what should the system do?
+A) Discard both
+B) Reinforce the common answer as stronger evidence
+C) Randomly pick one
+D) Start over
+18.Tree-of-Thought is most similar to which classic computer science concept?
+A) Hash tables
+B) Graph search algorithms
+C) Linked lists
+D) Array indexing
+19.If a CoT model fails on a complex reasoning task, how can ToT improve it?
+A) By exploring multiple reasoning routes instead of one linear chain
+B) By shortening the output
+C) By randomizing the model’s logic
+D) By limiting token generation
+20.
+When generating multiple reasoning paths for a puzzle, ToT helps the model:
+A) Stop early
+B) Evaluate, compare, and select the best solution branch
+C) Ignore logic
+D) Repeat the same path

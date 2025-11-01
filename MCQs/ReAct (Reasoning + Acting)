@@ -1,0 +1,110 @@
+1.The ReAct framework allows a model to:
+A) Think silently without acting
+B) Only perform actions without reasoning
+C) Combine reasoning steps with external actions
+D) Repeat answers multiple times
+2.In ReAct, “actions” may include:
+A) Daydreaming
+B) API calls, web searches, or calculations
+C) Model self-training
+D) Adding random noise
+3.Which sequence best represents a ReAct loop?
+A) Observe → Forget → Act
+B) Reason → Act → Observe → Reason
+C) Think → Sleep → Respond
+D) Action → Reset → Stop
+4.A model says:“I should search for current Bitcoin price.” (action)
+“Now that I have the result, I can analyze market trends.” (reason)
+What framework is this?
+A) Chain of Thought
+B) Tree of Thought
+C) ReAct
+D) Self-Consistency
+5.ReAct differs from Chain-of-Thoughtecause it:
+A) Removes reasoning completely
+B) Adds external interactions to reasoning
+C) Uses fewer tokens
+D) Works only on math problems
+6.In an AI assistant that can “think, search, and respond,” which part demonstrates ReAct?
+A) Storing answers in memory
+B) Searching the web mid-reasoning
+C) Generating random jokes
+D) Reducing token length
+7.What is the biggest advantage of ReAct over plain CoT?
+A) Faster token generation
+B) Ability to use tools and external sources dynamically
+C) Better image rendering
+D) Reduced hallucination by shortening steps
+8.When implementing ReAct, what risk can occur if the model acts before reasoning?
+A) Action may be irrelevant or wasteful
+B) Model runs faster
+C) Output becomes shorter
+D) Improves reasoning quality automatically
+9.Which of the following is not an example of a ReAct action?
+A) Querying a database
+B) Performing a calculation
+C) Explaining a step logically
+D) Searching an API
+10.Why is ReAct valuable for AI agents in real-world scenarios?
+A) It limits actions
+B) It enables autonomous problem-solving through reasoning–action loops
+C) It avoids using memory
+D) It reduces context window
+11.Example:“Let me fetch the latest weather data.” (Action)
+“Since it’s raining, I’ll suggest indoor activities.” (Reason)
+This illustrates:
+A) Self-Consistency
+B) ReAct
+C) Tree-of-Thought
+D) Chain-of-Thought only
+12.ReAct agents are often used in which AI system design?
+A) Passive QA bots
+B) Tool-using AI agents
+C) Grammar correction bots
+D) Token compressors
+13.A ReAct-based chatbot is solving a code error. What would be its best next step?
+A) Guessing the error
+B) Acting to run and test the code snippet
+C) Ignoring the issue
+D) Repeating the same explanation
+14.Which statement best captures ReAct’s design?
+A) “Think → Do → Think → Do”
+B) “Do → Stop”
+C) “Think once → Answer”
+D) “Guess → Guess again”
+15.What challenge might occur in ReAct when multiple actions are taken without reflection?
+A) Infinite action loops
+B) Faster accuracy
+C) Token reduction
+D) Better summarization
+16.In ReAct, “Observation” refers to:
+A) The model thinking internally
+B) The model reading the result of its last action
+C) The model waiting for user input
+D) A random process
+17.A model says:“I’ll calculate the sum of the list.” (action)
+“The result is 150, so the average is 30.” (reason)
+What framework is being used?
+A) CoT
+B) ReAct
+C) Self-Consistency
+D) ToT
+18.Which combination describes the ReAct components correctly?
+A) Memory + Reflection
+B) Reasoning + Action
+C) Token + Context
+D) Observation + Shortcut
+19.How does ReAct reduce hallucinations in LLMs?
+A) It ignores reasoning
+B) It verifies information via real actions (search, code, etc.)
+C) It increases randomness
+D) It hides chain steps
+20.A ReAct agent solving a business case should first:
+A) Guess the market size
+B) Reason what data is needed, then search for it
+C) Skip data search
+D) Use memory only
+
+
+
+

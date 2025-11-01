@@ -1,0 +1,109 @@
+1.An AI model is asked: “What is 15% of 200?”
+It first writes: “10% of 200 is 20, 5% of 200 is 10, so total = 30.”
+This process represents:
+A) Prompt engineering
+B) Chain-of-thought reasoning
+C) Model fine-tuning
+D) Data augmentation
+2.Which of the following best defines Chain-of-Thought prompting?
+A) Forcing the model to output short answers
+B) Training the model to memorize data
+C) Encouraging step-by-step reasoning to reach a conclusion
+D) Using multiple models for ensemble answers
+3.In a math problem, an AI writes:
+“Step 1: Find total apples. Step 2: Subtract given apples. Step 3: Show remainder.”
+What’s the purpose of this approach?
+A) To debug model weights
+B) To make reasoning transparent
+C) To limit token size
+D) To randomize answers
+4.Which problem type benefits most from Chain-of-Thought reasoning?
+A) Fact recall
+B) Complex logical puzzles
+C) Keyword search
+D) Data compression
+5.A model directly outputs the final answer “Paris” to “Capital of France?”
+This is not Chain-of-Thought because:
+A) It skips intermediate reasoning
+B) It uses wrong data
+C) It’s too slow
+D) It has high bias
+6.Why does Chain-of-Thought improve trust in AI reasoning?
+A) It hides errors
+B) It provides explainable intermediate steps
+C) It randomizes predictions
+D) It shortens answers
+7.In a CoT example, the model explains each step but makes an arithmetic mistake at the end. What can a developer do?
+A) Disable CoT
+B) Check and correct intermediate steps
+C) Fine-tune with smaller data
+D) Remove explanations
+8.What happens if a model gives correct reasoning steps but an incorrect final answer?
+A) CoT has failed completely
+B) CoT still provides value for debugging
+C) CoT increases hallucination
+D) CoT makes no difference
+9.Which of these tasks would not need Chain-of-Thought?
+A) Solving 12 × (3 + 2)
+B) Translating “Hello” to French
+C) Proving a geometry theorem
+D) Explaining a legal argument
+10.Prompt: “Explain your reasoning before answering.”
+This is an example of:
+A) Zero-shot CoT
+B) Few-shot CoT
+C) Implicit CoT
+D) Reinforcement learning
+11..If you show the model one solved example before asking your question, what type of CoT is that?
+A) Few-shot CoT
+B) Multi-agent CoT
+C) Self-consistency CoT
+D) Open-ended CoT
+12.Why is Chain-of-Thought especially useful for coding assistants?
+A) It reduces syntax errors by guessing
+B) It shows logical steps in code reasoning
+C) It adds random suggestions
+D) It hides the logic for faster execution
+13.A model says:
+“Let’s reason step by step: There are 3 blue balls, 2 red. Total = 5.”
+Which keyword often triggers Chain-of-Thought behavior?
+A) “Explain shortly”
+B) “Reason step by step”
+C) “Write final only”
+D) “Skip reasoning”
+14.What is a key limitation of CoT?
+A) It cannot be used for logical tasks
+B) It increases token length and compute cost
+C) It prevents explanation
+D) It only works in binary classification
+15.Which CoT method helps ensure reasoning diversity?
+A) Tree-of-Thought
+B) Self-consistency
+C) Multi-modal fusion
+D) Reinforcement learning
+16.If an AI explains how it solved a Sudoku puzzle, which technique is it demonstrating?
+A) Chain-of-Thought reasoning
+B) Gradient descent
+C) Prompt pruning
+D) Token sampling
+17.What is the main goal of CoT prompting?
+A) To increase dataset size
+B) To make model decisions interpretable
+C) To add random variation
+D) To shorten output
+18.When the model says: “First calculate total sales, then find average,” this is an example of:
+A) Linear reasoning chain
+B) Random inference
+C) Dataset annotation
+D) Noisy training
+19.What makes Chain-of-Thought different from standard LLM answering?
+A) It uses memory
+B) It adds explicit intermediate steps
+C) It reduces parameters
+D) It uses hidden layers differently
+20.An AI is solving a legal question and explains every rule it applied before concluding. This approach:
+A) Slows down reasoning
+B) Builds human trust
+C) Reduces explainability
+D) Adds randomness
+

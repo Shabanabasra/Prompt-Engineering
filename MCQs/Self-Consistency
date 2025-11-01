@@ -1,0 +1,111 @@
+1.In self-consistency reasoning, an AI model generates multiple reasoning paths for the same question. Why?
+A) To confuse the user
+B) To find the most frequent and reliable answer
+C) To reduce tokens
+D) To memorize patterns
+2.If five reasoning paths give answers: [42, 42, 40, 42, 39], which result will self-consistency choose?
+A) 40
+B) 42
+C) 39
+D) Random
+3.Self-consistency builds upon which other reasoning approach?
+A) Chain-of-Thought
+B) Reinforcement Learning
+C) Prompt tuning
+D) Memory retrieval
+4.What is the main benefit of self-consistency in LLMs?
+A) It reduces randomness and increases reliability
+B) It speeds up output
+C) It eliminates long answers
+D) It hides reasoning steps
+5.A model is asked, “Who won the 2018 FIFA World Cup?”
+•	Path 1: France
+•	Path 2: France
+•	Path 3: Germany
+Final output = France.
+What concept does this demonstrate?
+A) Random selection
+B) Self-consistency
+C) Overfitting
+D) Zero-shot reasoning
+6.Why is self-consistency more effective than a single Chain-of-Thought run?
+A) It captures a broader range of reasoning styles
+B) It increases token randomness
+C) It removes interpretability
+D) It stops intermediate reasoning
+7.If a model gives five different answers for a logic puzzle, what does self-consistency do next?
+A) Chooses one randomly
+B) Counts frequency and picks the most consistent one
+C) Deletes all answers
+D) Restarts reasoning
+8.How is self-consistency similar to “ensemble learning” in machine learning?
+A) Both combine results from multiple independent predictions
+B) Both rely on a single model
+C) Both ignore diversity
+D) Both use same random seed
+9.When self-consistency is applied incorrectly, what is the likely outcome?
+A) Biased final answers
+B) Random token drops
+C) Model freezing
+D) Increased speed
+10.Which prompt best encourages self-consistency evaluation?
+A) “Give one short answer.”
+B) “Generate multiple possible reasoning paths before deciding.”
+C) “Write only yes or no.”
+D) “Skip intermediate steps.”
+11.A reasoning system runs the same CoT prompt three times with different temperature values. This is an example of:
+A) Self-consistency sampling
+B) Prompt tuning
+C) Token pruning
+D) Model distillation
+12.What type of reasoning tasks benefit most from self-consistency?
+A) Multi-step logic and math problems
+B) Simple factual lookup
+C) Text tokenization
+D) Grammar correction
+13.Self-consistency helps reduce what common LLM problem?
+A) Hallucinations or random incorrect reasoning
+B) Model training time
+C) Input length
+D) Computation cost
+14.If each reasoning chain explores a slightly different approach to the same problem, this encourages:
+A) Diversity in reasoning
+B) Uniformity
+C) Shorter outputs
+D) Token reduction
+15.Self-consistency is often used after Chain-of-Thought because:
+A) It aggregates multiple CoT outputs to ensure stability
+B) It replaces CoT entirely
+C) It removes reasoning
+D) It adds hallucinations
+16.Which sampling strategy does self-consistency typically use?
+A) Greedy decoding
+B) Random uniform sampling
+C) Temperature-based stochastic sampling
+D) Deterministic decoding
+17.A self-consistency system returns:
+•	Path 1 → 15
+•	Path 2 → 16
+•	Path 3 → 15
+•	Path 4 → 15
+Final answer = ?
+A) 16
+B) 15
+C) Average (15.5)
+D) Random
+18.What does “consistency” in self-consistency mean?
+A) Repeating identical reasoning paths
+B) Agreement in final outcomes across diverse paths
+C) Uniform training data
+D) Reduced token usage
+19.What is a limitation of self-consistency?
+A) It requires multiple model runs, increasing computation cost
+B) It cannot handle complex reasoning
+C) It produces shorter responses
+D) It ignores accuracy
+20.When evaluating multiple reasoning paths, the system may assign a confidence score to each. What is this process called?
+A) Weighted voting
+B) Token pruning
+C) Chain compression
+D) Random decoding
+
